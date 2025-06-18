@@ -1,0 +1,78 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Dancing Script', cursive; /* for left name */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: -5px;
+  border-radius: 6px;
+}
+
+.header-left {
+  font-size: 2rem;
+  color: #6e4646;
+}
+
+.header-right {
+  display: flex;
+  gap: 55px;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #000;
+}
+.box{
+    background-color: #b4e7b0;
+    height: 370px;
+    width: 630px;
+    position: relative;
+    left: 110px;
+    top: 120px;
+    text-align: center;
+}
+.box h1{
+    position: relative;
+    top: 80px;
+}
+.box > p{
+    font-style: italic;
+    position: relative;
+    top: 80px;
+    font-family: monospace;
+}
+.download-btn {
+  background-color: #FFA500; /* bright orange */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 195px;
+left: 245px;
+}
+
+.download-btn:hover {
+  background-color: #cc8400; /* slightly darker orange */
+}
+body{
+    background-color: #FFE4E1
+}
+img{
+    height: 400px;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 100px;
+}
+
+
